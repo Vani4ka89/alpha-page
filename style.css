@@ -9,17 +9,6 @@ a {
   text-decoration: none;
 }
 
-.book {
-  padding: 10px 20px;
-  gap: 10px;
-  border-radius: 12px;
-  outline: none;
-  background-color: #FAFF00;
-  font-weight: 800;
-  font-size: 16px;
-  line-height: 26px;
-}
-
 .content-flex {
   display: flex;
   justify-content: space-between;
@@ -31,6 +20,17 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
+}
+
+.book {
+  padding: 10px 20px;
+  gap: 10px;
+  border-radius: 12px;
+  outline: none;
+  background-color: #FAFF00;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 .page-dark, .page-footer {

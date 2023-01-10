@@ -14,6 +14,18 @@ $light-blue: #5F719F;
 a {
   text-decoration: none;
 }
+.content-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+//////////////////////////////////////HEADER PART/////////////////////////////////////////
 .book {
   padding: 10px 20px;
   gap: 10px;
@@ -23,19 +35,6 @@ a {
   font-weight: 800;
   font-size: 16px;
   line-height: 26px;
-}
-
-.content-flex{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-body {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
 }
 .page-dark, .page-footer {
   background-color: $dark-blue;
@@ -102,24 +101,22 @@ body {
     margin-top: 28px;
   }
 }
+////////////////////////////////////////MIDDLE PROMO PART/////////////////////////////////
 .page-light {
   background-color: $light-white;
   display: flex;
   justify-content: space-between;
   padding-bottom: 80px;
 }
-
 .group {
   padding-top: 48px;
 }
-
 .list {
   list-style: url("image/check-mark.svg") inside;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
-
   &-item {
     font-weight: 500;
     font-size: 16px;
@@ -162,7 +159,7 @@ h3 {
   margin-left: 10px;
   color: $white;
 }
-
+/////////////////////////////////////////////FOOTER PART///////////////////////////////////
 .footer {
   display: flex;
   justify-content: space-between;
@@ -221,7 +218,6 @@ h3 {
     font-size: 18px;
     line-height: 24px;
   }
-
 .menu-list {
   list-style-type: none;
   &-item a{
