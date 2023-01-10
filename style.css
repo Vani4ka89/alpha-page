@@ -228,6 +228,9 @@ h2 {
 .menu-list {
   list-style-type: none;
 }
+.menu-list-item {
+  margin-bottom: 10px;
+}
 .menu-list-item a {
   color: #F8F8F8;
   font-weight: 400;

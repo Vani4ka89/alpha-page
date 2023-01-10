@@ -220,6 +220,9 @@ h3 {
   }
 .menu-list {
   list-style-type: none;
+  &-item {
+    margin-bottom: 10px;
+  }
   &-item a{
     color: $light-white;
     font-weight: 400;
