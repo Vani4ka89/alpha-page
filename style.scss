@@ -1,0 +1,164 @@
+$white: #FFFFFF;
+$light-white: #F8F8F8;
+$dark-blue: #344265;
+$blue: #485982;
+$yellow: #FAFF00;
+$light-blue: #5F719F;
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.book {
+  padding: 10px 20px;
+  gap: 10px;
+  border-radius: 12px;
+  outline: none;
+  background-color: $yellow;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.content-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+.page-dark {
+  background-color: $dark-blue;
+}
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header{
+  padding-top: 20px;
+  padding-bottom: 24px;
+  &-loft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-search {
+    color: $blue;
+    padding: 10px 15px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: $light-white;
+    background-image: url("image/Search icon.svg");
+    background-repeat: no-repeat;
+    background-position: 250px 10px;
+    outline: none;
+    &::-webkit-search-decoration,
+    &::-webkit-search-cancel-button,
+    &::-webkit-search-results-button,
+    &::-webkit-search-results-decoration {
+      -webkit-appearance:none;
+    }
+  }
+  &-phone {
+    color: $white;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    gap: 10px;
+  }
+  .nav {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    &-item {
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 21px;
+    }
+    &-item a {
+      color: $white;
+    }
+  }
+  .btn-1 {
+    color: $dark-blue;
+  }
+  &-bottom {
+    margin-top: 28px;
+  }
+}
+.page-light {
+  background-color: $light-white;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+
+.group {
+  padding-top: 48px;
+}
+
+.list {
+  list-style: url("image/check-mark.svg");
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  list-style-position: inside;
+
+  &-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: $light-blue;
+  }
+}
+h1 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  align-items: center;
+  color: $dark-blue;
+}
+h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.6px;
+  color: $blue;
+  margin-bottom: 32px;
+}
+.button {
+  background-color: $blue;
+  padding: 10px 22px;
+  border-radius: 12px;
+  margin-top: 32px;
+  margin-left: 45px;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.5px;
+  text-transform: uppercase;
+  color: $white;
+}
+.btn-2 {
+  margin-left: 10px;
+  color: $white;
+}
+
+
+
+
