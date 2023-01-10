@@ -88,6 +88,11 @@ body {
 }
 .header .btn-1 {
   color: #344265;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.5px;
+  text-transform: uppercase;
 }
 .header-bottom {
   margin-top: 28px;
@@ -105,12 +110,11 @@ body {
 }
 
 .list {
-  list-style: url("image/check-mark.svg");
+  list-style: url("image/check-mark.svg") inside;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
-  list-style-position: inside;
 }
 .list-item {
   font-weight: 500;
@@ -161,19 +165,19 @@ h3 {
 .footer {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 16px;
 }
 .footer-info {
   margin-top: 56px;
+}
+.footer-logo {
+  margin-bottom: 64px;
 }
 .footer-phone {
   color: #FFFFFF;
   display: flex;
   align-items: center;
   gap: 6px;
-}
-.footer h2 {
-  color: #FFFFFF;
-  margin-bottom: 16px;
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
@@ -182,6 +186,43 @@ h3 {
   display: flex;
   gap: 80px;
   margin-top: 110px;
+}
+.footer-book {
+  margin-top: 46px;
+  margin-bottom: 75px;
+}
+
+.icons {
+  margin-top: 150px;
+  margin-right: 20px;
+  position: relative;
+  right: -20px;
+}
+
+.adress {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #F8F8F8;
+  margin-top: 40px;
+  margin-bottom: 32px;
+}
+
+.mail {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #F8F8F8;
+}
+
+h2 {
+  color: #FFFFFF;
+  margin-bottom: 16px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .menu-list {
@@ -192,6 +233,22 @@ h3 {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
+}
+
+.btn-3 {
+  color: #344265;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.5px;
+  text-transform: uppercase;
+}
+
+.reserved {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #F8F8F8;
 }
 
 /*# sourceMappingURL=style.css.map */

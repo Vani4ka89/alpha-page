@@ -92,6 +92,11 @@ body {
   }
   .btn-1 {
     color: $dark-blue;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
   }
   &-bottom {
     margin-top: 28px;
@@ -109,12 +114,11 @@ body {
 }
 
 .list {
-  list-style: url("image/check-mark.svg");
+  list-style: url("image/check-mark.svg") inside;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
-  list-style-position: inside;
 
   &-item {
     font-weight: 500;
@@ -162,17 +166,53 @@ h3 {
 .footer {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 16px;
   &-info {
     margin-top: 56px;
   }
   &-logo {
-
+    margin-bottom: 64px;
   }
   &-phone {
     color: $white;
     display: flex;
     align-items: center;
     gap: 6px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+   }
+    &-menu {
+      display: flex;
+      gap: 80px;
+      margin-top: 110px;
+    }
+    &-book {
+      margin-top: 46px;
+      margin-bottom: 75px;
+    }
+  }
+  .icons {
+    margin-top: 150px;
+    margin-right: 20px;
+    position: relative;
+    right: -20px;
+  }
+  .adress {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: $light-white;
+    margin-top: 40px;
+    margin-bottom: 32px;
+  }
+  .mail {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: $light-white;
   }
   h2 {
     color: $white;
@@ -181,12 +221,7 @@ h3 {
     font-size: 18px;
     line-height: 24px;
   }
-&-menu {
-  display: flex;
-  gap: 80px;
-  margin-top: 110px;
-}
-}
+
 .menu-list {
   list-style-type: none;
   &-item a{
@@ -195,6 +230,20 @@ h3 {
     font-size: 14px;
     line-height: 17px;
   }
+}
+.btn-3 {
+  color: $dark-blue;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.5px;
+  text-transform: uppercase;
+}
+.reserved {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: $light-white;
 }
 
 
