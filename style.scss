@@ -37,7 +37,7 @@ body {
   font-size: 14px;
   line-height: 17px;
 }
-.page-dark {
+.page-dark, .page-footer {
   background-color: $dark-blue;
 }
 .wrapper {
@@ -158,6 +158,45 @@ h3 {
   margin-left: 10px;
   color: $white;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  &-info {
+    margin-top: 56px;
+  }
+  &-logo {
+
+  }
+  &-phone {
+    color: $white;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  h2 {
+    color: $white;
+    margin-bottom: 16px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+  }
+&-menu {
+  display: flex;
+  gap: 80px;
+  margin-top: 110px;
+}
+}
+.menu-list {
+  list-style-type: none;
+  &-item a{
+    color: $light-white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
 
 
 
