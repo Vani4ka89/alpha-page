@@ -15,6 +15,11 @@ a {
   align-items: center;
 }
 
+html, body {
+  height: 100%;
+  min-width: 320px;
+}
+
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 400;
@@ -38,6 +43,8 @@ body {
 }
 
 .wrapper {
+  overflow: hidden;
+  min-height: 100%;
   max-width: 1110px;
   margin: 0 auto;
   padding: 0 15px;
@@ -46,11 +53,6 @@ body {
 .header {
   padding-top: 20px;
   padding-bottom: 24px;
-}
-.header-loft {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 .header-search {
   color: #485982;
