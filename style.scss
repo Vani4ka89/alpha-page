@@ -245,6 +245,28 @@ h3 {
   line-height: 17px;
   color: $light-white;
 }
+/************************************MEDIA***************************/
+
+@media screen and (min-width: 0) and (max-width: 576px){
+  
+}@media screen and (min-width: 576px) and (max-width: 767px){
+
+}@media screen and (min-width: 768px) and (max-width: 991px){
+  .book {
+    padding: 5px 10px;
+  }
+
+  .icons {
+    margin-right: 10px;
+    margin-top: 115px;
+  }
+}@media screen and (min-width: 992px) and (max-width: 1200px){
+
+}@media screen and (min-width: 0) and (max-width: 576px){
+
+}@media screen and (min-width: 0) and (max-width: 576px){
+
+}
 
 
 
